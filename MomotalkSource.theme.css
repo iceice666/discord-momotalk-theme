@@ -226,6 +226,9 @@
     /* Typing area */
     background-color: var(--senseimessagebubble) !important;
 }
+.placeholder__1b31f {
+    --channel-text-area-placeholder: var(--interactive-text-default);
+}
 .attachButtonInner__0923f svg {
     color: var(--messagefontcolor);
 }
@@ -313,6 +316,8 @@
 /* Top bar */
 .bar_c38106 {
     background-color: var(--momotalkbanner);
+
+    margin-right: 10px;
 
     /* the little discord icon as well as inbox and help */
     path {
@@ -743,7 +748,7 @@ html.density-cozy
     }
 }
 html:not(.custom-theme-background) .searchBar_e6b769 {
-    background-color: var(--sidebar) !important;
+    /*background-color: var(--sidebar) !important;*/
 }
 
 /* DM list*/
@@ -876,8 +881,22 @@ html:not(.custom-theme-background) .searchBar_e6b769 {
     width: 300px;
 }
 
+#app-mount nav.wrapper_ef3116.guilds__5e434,
+#app-mount nav.wrapper_ef3116.guilds__5e434 button {
+    color: var(--messagefontcolor);
+}
+
 /* ---------------- LIGHT MODE ---------------- */
 .theme-light.images-light {
+    #app-mount nav.wrapper_ef3116.guilds__5e434,
+    #app-mount nav.wrapper_ef3116.guilds__5e434 button {
+        color: var(--messagefontcolorLIGHT);
+    }
+
+    #app-mount .guilds__5e434 .childWrapper__6e9f8.acronym__6e9f8 {
+        color: var(--messagefontcolorLIGHT);
+    }
+
     [class*="messageGroupWrapper_"] {
         /* FIX FOR PINS */
         background-color: var(--messagebubbleLIGHT) !important;
@@ -926,6 +945,9 @@ html:not(.custom-theme-background) .searchBar_e6b769 {
         /* Typing area */
         background-color: var(--senseimessagebubbleLIGHT);
     }
+    .placeholder__1b31f {
+        --channel-text-area-placeholder: var(--interactive-text-default);
+    }
     .channelBottomBarArea_f75fb0 svg {
         color: var(--messagefontcolorLIGHT);
     }
@@ -945,6 +967,8 @@ html:not(.custom-theme-background) .searchBar_e6b769 {
     /* Top bar */
     .bar_c38106 {
         background-color: var(--momotalkbannerLIGHT);
+
+        margin-right: 10px;
 
         /* the little discord icon as well as inbox and help */
         path {
@@ -1067,7 +1091,7 @@ html:not(.custom-theme-background) .searchBar_e6b769 {
         }
     }
     html:not(.custom-theme-background) .searchBar_e6b769 {
-        background-color: var(--sidebarLIGHT) !important;
+        /*background-color: var(--sidebarLIGHT) !important;*/
     }
 
     /* DM list*/
