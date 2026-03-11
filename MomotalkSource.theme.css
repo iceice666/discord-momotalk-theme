@@ -6,127 +6,123 @@
   * @source https://github.com/MiyakuKage/discord-momotalk
 */
 
-
-
-
-
 /* Change Colors Here!!!! */
 :root {
-	--backgroundcolor: #323339;
-	
-	--momotalkbanner: #E56072;
+    --backgroundcolor: #323339;
 
-	--senseimessagebubble: #4A8AC8;
+    --momotalkbanner: #e56072;
 
-	--messagebubble: #4C5B6F;
+    --senseimessagebubble: #4a8ac8;
 
-	--embedcolor: #323339;
-	--embedborder: #4A4B79;
-	
-	--text-link: #A3BAFF;
+    --messagebubble: #4c5b6f;
 
-	--sidebar: #505C72;	
-	--sidebarborder : #3E4E6B;
-	
-	--channeltopbar: #505C72;
-	
-	--messagefontcolor: #FFFFFF;
+    --embedcolor: #323339;
+    --embedborder: #4a4b79;
 
-	--username: #c4c4c4;
-	--usernameoutline: #323339;
+    --text-link: #a3baff;
 
-	--serverlist: #505C72;
-	
-	--newmessages: #DDE6ED;/* this is the read up to this point thingy*/
+    --sidebar: #505c72;
+    --sidebarborder: #3e4e6b;
 
-	--newtextcolor: #3F444A;
-	
-	--mention : rgba(255, 147, 183, 0.5); 
-	--mentionbar : rgba(255, 147, 183, 0.8); 
-	
-	--hovericoncolor: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(106%) contrast(105%);
+    --channeltopbar: #505c72;
 
-	/* Change Images Here !!!! */
-	--bgcharacter: url('https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
-	
-	--bgcharacterposition: bottom 10% left 30%;
-	
-	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/plana.apng'); 
+    --messagefontcolor: #ffffff;
 
-	--bgimage: url('your image url here.png');
+    --username: #c4c4c4;
+    --usernameoutline: #323339;
 
-	--callimage: url('your image url here.png');
+    --serverlist: #505c72;
 
+    --newmessages: #dde6ed; /* this is the read up to this point thingy*/
 
+    --newtextcolor: #3f444a;
 
-	/*FOR LIGHTMODE*/
-	--backgroundcolorLIGHT: #FBFBFB;
-	
-	--momotalkbannerLIGHT: #FB90A4;
+    --mention: rgba(255, 147, 183, 0.5);
+    --mentionbar: rgba(255, 147, 183, 0.8);
 
-	--senseimessagebubbleLIGHT: #4A8AC8;
+    --hovericoncolor: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg)
+        brightness(106%) contrast(105%);
 
-	--messagebubbleLIGHT: #4C5B6F;
-	
-		--embedcolorLIGHT: #FFFFFF;
-			--embedborderLIGHT: #ECECEC;
+    /* Change Images Here !!!! */
+    --bgcharacter: url("https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng"); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
 
-	--text-linkLIGHT: #A3BAFF;
+    --bgcharacterposition: bottom 10% left 30%;
 
-	--sidebarLIGHT: #F2F7F8;
-	
-	--sidebarborderLIGHT : #DFE2E1;
-	
-	--channeltopbarLIGHT: #E7F0F7;
+    --characterfriends: url("https://miyakukage.github.io/discord-momotalk/img/chara/plana.apng");
 
-	--messagefontcolorLIGHT: #FFFFFF;
+    --bgimage: url("your image url here.png");
 
-	--usernameLIGHT: #373737;
-	--usernameoutlineLIGHT: #FFFFFF;
+    --callimage: url("your image url here.png");
 
-	--serverlistLIGHT: #505C72;
-	
-	--newmessagesLIGHT: #DDE6ED;/* this is the read up to this point thingy*/
+    /*FOR LIGHTMODE*/
+    --backgroundcolorLIGHT: #fbfbfb;
 
-	--newtextcolorLIGHT: #3F444A;
+    --momotalkbannerLIGHT: #fb90a4;
 
-	--hovericoncolorLIGHT:   ;
-	
+    --senseimessagebubbleLIGHT: #4a8ac8;
 
-	/* Change Images Here !!!! */
-	--bgcharacterLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/mika.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
-	
-	--bgcharacterpositionLIGHT: bottom 10% left 30%;
-	
-	--characterfriendsLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); 
-	
-	--bgimageLIGHT: url('your image url here.png');
+    --messagebubbleLIGHT: #4c5b6f;
 
-	--callimageLIGHT: url('your image url here.png');
+    --embedcolorLIGHT: #ffffff;
+    --embedborderLIGHT: #ececec;
+
+    --text-linkLIGHT: #a3baff;
+
+    --sidebarLIGHT: #f2f7f8;
+
+    --sidebarborderLIGHT: #dfe2e1;
+
+    --channeltopbarLIGHT: #e7f0f7;
+
+    --messagefontcolorLIGHT: #ffffff;
+
+    --usernameLIGHT: #373737;
+    --usernameoutlineLIGHT: #ffffff;
+
+    --serverlistLIGHT: #505c72;
+
+    --newmessagesLIGHT: #dde6ed; /* this is the read up to this point thingy*/
+
+    --newtextcolorLIGHT: #3f444a;
+
+    --hovericoncolorLIGHT:   ;
+
+    /* Change Images Here !!!! */
+    --bgcharacterLIGHT: url("https://miyakukage.github.io/discord-momotalk/img/chara/mika.apng"); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
+
+    --bgcharacterpositionLIGHT: bottom 10% left 30%;
+
+    --characterfriendsLIGHT: url("https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng");
+
+    --bgimageLIGHT: url("your image url here.png");
+
+    --callimageLIGHT: url("your image url here.png");
 }
 
 /* The cursor ! */
 * {
-	cursor: url("https://miyakukage.github.io/discord-momotalk/img/cursor.png"), auto !important;
+    cursor:
+        url("https://miyakukage.github.io/discord-momotalk/img/cursor.png"),
+        auto !important;
 }
 
 /* Arona in friends */
 
 .scroller__7d20c {
-	background-image: var(--characterfriends);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	background-attachment: fixed;
+    background-image: var(--characterfriends);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
 }
 .preview__3e443 {
-  position: relative;
-  display: block;
+    position: relative;
+    display: block;
 }
 
 /* Arona loading */
 .wrapper_d852db {
-    background-image: url('https://miyakukage.github.io/discord-momotalk/img/aronaLoading.gif');
+    background-image: url("https://miyakukage.github.io/discord-momotalk/img/aronaLoading.gif");
     background-repeat: no-repeat;
     background-position: right 2% bottom 10%;
     background-size: 100px;
@@ -134,9 +130,9 @@
     background-attachment: fixed;
     z-index: 1000;
 }
-    
+
 .wrapper_fc8177 {
-	display: none;
+    display: none;
 }
 
 /* Send Button */
@@ -148,115 +144,117 @@
 }
 
 .button_aa63ab:has(.sendIcon_aa63ab):hover {
-	background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 .sendIcon_aa63ab:hover {
-	filter: brightness(1.15);
+    filter: brightness(1.15);
 }
 
 .noHover__24af7 .sendIcon_aa63ab:hover {
-	filter: none;
+    filter: none;
 }
 
-.sendIcon_aa63ab>* {
-	display: none;
+.sendIcon_aa63ab > * {
+    display: none;
 }
 
 /* Hide everything inside */
 .preview__3e443 > * {
-  display: none !important;
+    display: none !important;
 }
 
 /* Add your replacement image */
 .preview__3e443::before {
-  content: "";
-  display: block;
-  width: 100%;   /* set your size */
-  height: 100%;
-  background: url('https://miyakukage.github.io/discord-momotalk/img/kohawarn.png') no-repeat center center;
-  background-size: contain; /* or cover */
+    content: "";
+    display: block;
+    width: 100%; /* set your size */
+    height: 100%;
+    background: url("https://miyakukage.github.io/discord-momotalk/img/kohawarn.png")
+        no-repeat center center;
+    background-size: contain; /* or cover */
 }
-.chat_f75fb0{
-	background-color: var(--channeltopbar) !important;
+.chat_f75fb0 {
+    background-color: var(--channeltopbar) !important;
 }
 
 /* Arona in main chat AND background*/
 .chatContent_f75fb0 {
-	background-image: var(--bgcharacter), var(--bgimage) !important;
-	background-size: auto 80%, cover !important;
-	background-repeat: no-repeat, no-repeat !important;
-	background-position: var(--bgcharacterposition), center center !important;
-	background-attachment: fixed, fixed !important;
-	background-color: var(--backgroundcolor) !important;
+    background-image: var(--bgcharacter), var(--bgimage) !important;
+    background-size:
+        auto 80%,
+        cover !important;
+    background-repeat: no-repeat, no-repeat !important;
+    background-position:
+        var(--bgcharacterposition),
+        center center !important;
+    background-attachment: fixed, fixed !important;
+    background-color: var(--backgroundcolor) !important;
 }
 .chatGradient__36d07 {
-	background: var(--backgroundcolor) !important;
+    background: var(--backgroundcolor) !important;
 }
 
 .voiceCallWrapper_a21736 {
-	background-image: var(--callimage) !important;
-	background-size: contain !important;
-	background-repeat: no-repeat !important;
-	background-attachment: fixed !important;
+    background-image: var(--callimage) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }
 /* killing wumpus */
 .addFriendWumpusWrapper__72ba7 img {
-	visibility: hidden;
+    visibility: hidden;
 }
- 
+
 .addFriendWumpusWrapper__72ba7::after {
-	content: "";
-	position: absolute;
-	bottom: -300%;	
-	left: 90%;
-	width: 800%;
-	height: 800%;
-	background-size: contain !important;
-	background-repeat: no-repeat !important;
-	background-image: url('https://miyakukage.github.io/discord-momotalk/img/tinyarona.png');
-	background-size: cover;
-	pointer-events: none;
+    content: "";
+    position: absolute;
+    bottom: -300%;
+    left: 90%;
+    width: 800%;
+    height: 800%;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-image: url("https://miyakukage.github.io/discord-momotalk/img/tinyarona.png");
+    background-size: cover;
+    pointer-events: none;
 }
 
 /* Colors */
 
-.themedBackground__74017 { /* Typing area */
-	background-color: var(--senseimessagebubble) !important;
+.themedBackground__74017 {
+    /* Typing area */
+    background-color: var(--senseimessagebubble) !important;
 }
-.attachButtonInner__0923f svg{
-	color: var(--messagefontcolor);
+.attachButtonInner__0923f svg {
+    color: var(--messagefontcolor);
 }
-.placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding__74017{
-	color: var(--messagefontcolor);
-
+.placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding__74017 {
+    color: var(--messagefontcolor);
 }
-.theme-dark.scrollbarGhostHairline__506b3.scrollbar__506b3.hljs { /* Code Block */
-	background-color: rgb(35, 67, 84) !important;
-	color: rgb(219, 219, 219) !important
+.theme-dark.scrollbarGhostHairline__506b3.scrollbar__506b3.hljs {
+    /* Code Block */
+    background-color: rgb(35, 67, 84) !important;
+    color: rgb(219, 219, 219) !important;
 }
-.panels__5e434 { /* User Thing */
-	background-color: var(--momotalkbanner) !important;
-	border: none;
+.panels__5e434 {
+    /* User Thing */
+    background-color: var(--momotalkbanner) !important;
+    border: none;
 }
 .activeButtonChild_aa63ab {
-	color: var(--messagefontcolor);
+    color: var(--messagefontcolor);
 }
 
-.wrapper_ef3116.guilds__5e434 { /* server list */
-	background-color: var(--serverlist);
+.wrapper_ef3116.guilds__5e434 {
+    /* server list */
+    background-color: var(--serverlist);
 }
-
-
-
-
-
 
 /*Home Image*/
 .wrapper_cc5dd2:hover .childWrapper__6e9f8,
 .childWrapper__6e9f8 {
-	background-color: transparent;
-
+    background-color: transparent;
 }
 
 .theme-dark .button_f7ecac {
@@ -265,24 +263,22 @@
 
 /*replace with colour if you want a colour behind your image */
 #app-mount .tutorialContainer__1f388 .childWrapper__6e9f8 {
-	background-image: url('https://miyakukage.github.io/discord-momotalk/img/home.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-
+    background-image: url("https://miyakukage.github.io/discord-momotalk/img/home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .childWrapper__6e9f8 svg {
-	display: none;
+    display: none;
 }
 
 .childWrapper__6e9f8.childWrapperNoHoverBg__6e9f8 {
-	background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 .listItemWrapper__91816.selected_dfb2f8 {
-	background-color: #66778B !important;
-
+    background-color: #66778b !important;
 }
 
 /* Fixing Discord's Mess... again... */
@@ -302,59 +298,59 @@
 
 /* Momotalk Icon */
 .base__5e434:has(.privateChannels_e6b769) .title_c38106 {
-
-	position: absolute; /* Or fixed if it should stay visible at all times */
-	background-image: url('https://miyakukage.github.io/discord-momotalk/img/logo.png');
-	background-size: contain;
-	background-position: left !important;
-	background-repeat: no-repeat;
-	background-position: center;
+    position: absolute; /* Or fixed if it should stay visible at all times */
+    background-image: url("https://miyakukage.github.io/discord-momotalk/img/logo.png");
+    background-size: contain;
+    background-position: left !important;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-
-
 .base__5e434:has(.privateChannels_e6b769) .title_edbb22 {
-	display: none;
-
+    display: none;
 }
 
 /* Top bar */
-.bar_c38106{
-	background-color: var(--momotalkbanner);
+.bar_c38106 {
+    background-color: var(--momotalkbanner);
 
-	/* the little discord icon as well as inbox and help */
-	path{
-		fill: var(--messagefontcolor);
-	}
+    /* the little discord icon as well as inbox and help */
+    path {
+        fill: var(--messagefontcolor);
+    }
 
-	/* direct message text */
-	.lineClamp1__4bd52{
-		color: var(--messagefontcolor);
-	}
+    /* direct message text */
+    .lineClamp1__4bd52 {
+        color: var(--messagefontcolor);
+    }
 
-	/* the aria labels explain themselves */
-	[aria-label="Minimize"] rect{
-		fill: var(--messagefontcolor);
-	}
+    /* the aria labels explain themselves */
+    [aria-label="Minimize"] rect {
+        fill: var(--messagefontcolor);
+    }
 
-	[aria-label="Maximize"] rect{
-		stroke: var(--messagefontcolor);
-	}
+    [aria-label="Maximize"] rect {
+        stroke: var(--messagefontcolor);
+    }
 
-	[aria-label="Close"] polygon{
-		fill: var(--messagefontcolor);
-	}
+    [aria-label="Close"] polygon {
+        fill: var(--messagefontcolor);
+    }
 }
 
 /* Message font */
 .markup__75297 {
-	color: var(--messagefontcolor);
+    color: var(--messagefontcolor);
 }
 
 /* Usernames */
 .username_c19a55 {
-	font-weight: 600 !important;
-    text-shadow: -1px -1px 0 var(--usernameoutline), 1px -1px 0 var(--usernameoutline), -1px 1px 0 var(--usernameoutline), 1px 1px 0 var(--usernameoutline);
+    font-weight: 600 !important;
+    text-shadow:
+        -1px -1px 0 var(--usernameoutline),
+        1px -1px 0 var(--usernameoutline),
+        -1px 1px 0 var(--usernameoutline),
+        1px 1px 0 var(--usernameoutline);
 }
 /* Remove outline for user with effects */
 .username_c19a55 span {
@@ -363,256 +359,265 @@
 
 /* DM List */
 .membersWrap_c8ffbb {
-	background-color: var(--dmlist) !important;
-	scrollbar-color: transparent transparent;
-	border-right: solid;
-	border-color: #DDDDDD;
-	
-	.selected_bf202d {
-		background-color: #DBE4EB !important;
-	}
+    background-color: var(--dmlist) !important;
+    scrollbar-color: transparent transparent;
+    border-right: solid;
+    border-color: #dddddd;
 
-	.username__703b9 {
-		font-weight: bold;
-	}
-	.activityText__972a0 {
-		color: #62676B
-	}
+    .selected_bf202d {
+        background-color: #dbe4eb !important;
+    }
 
+    .username__703b9 {
+        font-weight: bold;
+    }
+    .activityText__972a0 {
+        color: #62676b;
+    }
 }
 
 /* Common Message Container*/
 .message__5126c {
-	--momo-messages-border-radius: 10px;
+    --momo-messages-border-radius: 10px;
 
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-	/* Message reply arrow*/
-	&.groupStart__5126c>.contents_c19a55::after,
-	&.isSystemMessage_c19a55>.contents_c19a55::after {
-		content: "\25BA";
-		position: absolute;
-		color: var(--messagebubble);
-		border-radius: 5px;
-		font-size: 15px;
-	}
+    /* Message reply arrow*/
+    &.groupStart__5126c > .contents_c19a55::after,
+    &.isSystemMessage_c19a55 > .contents_c19a55::after {
+        content: "\25BA";
+        position: absolute;
+        color: var(--messagebubble);
+        border-radius: 5px;
+        font-size: 15px;
+    }
 
-	/* Hide triangle if message is sending */
-	&.groupStart__5126c>.contents_c19a55:has(.isSending_c19a55)::after {
-		opacity: 0.0;
-	}
+    /* Hide triangle if message is sending */
+    &.groupStart__5126c > .contents_c19a55:has(.isSending_c19a55)::after {
+        opacity: 0;
+    }
 
-	&.groupStart__5126c>.contents_c19a55::after {
-		top: 30px;
-	}
+    &.groupStart__5126c > .contents_c19a55::after {
+        top: 30px;
+    }
 
-	&.groupStart__5126c.hasReply_c19a55>.contents_c19a55::after {
-		top: 53px;
-	}
+    &.groupStart__5126c.hasReply_c19a55 > .contents_c19a55::after {
+        top: 53px;
+    }
 
-	&.isSystemMessage_c19a55>.contents_c19a55::after {
-		top: 9px;
-	}
+    &.isSystemMessage_c19a55 > .contents_c19a55::after {
+        top: 9px;
+    }
 
-	>.contents_c19a55 {
-		display: flex;
-		align-items: inherit;
-		flex-direction: column;
-		z-index: 1;
-		width: 100%;
-		max-width: 600px;
+    > .contents_c19a55 {
+        display: flex;
+        align-items: inherit;
+        flex-direction: column;
+        z-index: 1;
+        width: 100%;
+        max-width: 600px;
 
-		.markup__75297 {
-			padding: 5px 15px;
-			max-width: 100%;
-			border-radius: var(--momo-messages-border-radius);
-			background-color: var(--messagebubble);
-			overflow: visible;
-		}
-	}
-	
-	/* Editting message background */
-	.themedBackground__74017 {
-		background-color: var(--senseimessagebubble);
-	}
+        .markup__75297 {
+            padding: 5px 15px;
+            max-width: 100%;
+            border-radius: var(--momo-messages-border-radius);
+            background-color: var(--messagebubble);
+            overflow: visible;
+        }
+    }
 
-&:has(>.contents_c19a55>.markup__75297:empty)>.container_b7e1cb {
-	top: initial;
-}
+    /* Editting message background */
+    .themedBackground__74017 {
+        background-color: var(--senseimessagebubble);
+    }
 
-/* Hide reply arrow if message has no text but has a container (embed) */
-&:has(>.contents_c19a55>.markup__75297:empty)>.contents_c19a55::after {
-    display: none;
-}
-.channelTextArea__5126c.channelTextArea__74017{
-	margin-top: -5px;
-}
+    &:has(> .contents_c19a55 > .markup__75297:empty) > .container_b7e1cb {
+        top: initial;
+    }
 
+    /* Hide reply arrow if message has no text but has a container (embed) */
+    &:has(> .contents_c19a55 > .markup__75297:empty) > .contents_c19a55::after {
+        display: none;
+    }
+    .channelTextArea__5126c.channelTextArea__74017 {
+        margin-top: -5px;
+    }
 
+    .container_b7e1cb {
+        background-color: var(--embedcolor) !important;
+        margin-top: 5px;
+        border: 2px solid var(--embedborder);
 
-	.container_b7e1cb {
-		background-color: var(--embedcolor) !important;
-		margin-top: 5px;
-		border: 2px solid var(--embedborder);
+        border-radius: var(--momo-messages-border-radius);
+        width: fit-content;
+        top: 0px;
+        padding: 20px;
 
-		border-radius: var(--momo-messages-border-radius);
-		width: fit-content;
-		top: 0px;
-		padding: 20px;
+        &:has(:first-child.reactions__23977) {
+            top: initial;
+            padding: 0;
+            background-color: transparent;
 
-		&:has(:first-child.reactions__23977) {
-			top: initial;
-			padding: 0;
-			background-color: transparent;
-			
+            .reaction__23977.reactionMe__23977 .reactionCount__23977 {
+                color: var(--brand-560);
+            }
+        }
 
-
-			.reaction__23977.reactionMe__23977 .reactionCount__23977 {
-				color: var(--brand-560);
-			}
-		}
-
-		&:has(article.embedWrapper_b7e1cb .embedProvider__623de>a[href*="youtube"]) {
-			width: 97%;
-			max-width: 432px;
-		}
-		
-		
-	}
-	
+        &:has(
+            article.embedWrapper_b7e1cb
+                .embedProvider__623de
+                > a[href*="youtube"]
+        ) {
+            width: 97%;
+            max-width: 432px;
+        }
+    }
 }
 
 /* Other Message Container */
 [data-is-self="false"] .message__5126c {
-	align-items: start;
+    align-items: start;
 
-	>.contents_c19a55 {
-		.markup__75297 {
-			margin-left: 13px;
-		}
+    > .contents_c19a55 {
+        .markup__75297 {
+            margin-left: 13px;
+        }
 
-		&::after {
-			transform: rotate(180deg);
-		}
-	}
+        &::after {
+            transform: rotate(180deg);
+        }
+    }
 
-	.container_b7e1cb {
-		margin-left: 13px;
-	}
+    .container_b7e1cb {
+        margin-left: 13px;
+    }
 }
 /* Triangle position for different densities */
-.density-compact [data-is-self="false"] .message__5126c >.contents_c19a55::after {
-	left: 66px;
+.density-compact
+    [data-is-self="false"]
+    .message__5126c
+    > .contents_c19a55::after {
+    left: 66px;
 }
-.density-default [data-is-self="false"] .message__5126c >.contents_c19a55::after {
-	left: 75px;
+.density-default
+    [data-is-self="false"]
+    .message__5126c
+    > .contents_c19a55::after {
+    left: 75px;
 }
-.density-cozy [data-is-self="false"] .message__5126c >.contents_c19a55::after {
-	left: 82px;
+.density-cozy [data-is-self="false"] .message__5126c > .contents_c19a55::after {
+    left: 82px;
 }
 
 /* Self Message Container */
 [data-is-self="true"] .message__5126c {
-	--messagebubble: var(--senseimessagebubble);
-	align-items: end;
+    --messagebubble: var(--senseimessagebubble);
+    align-items: end;
 
-	/* Flip discord paddings */
-	padding-left: 48px;
-	padding-right: var(--custom-message-margin-horizontal) !important;
+    /* Flip discord paddings */
+    padding-left: 48px;
+    padding-right: var(--custom-message-margin-horizontal) !important;
 
-	&.cozy_c19a55 {
-		padding-right: var(--custom-message-margin-left-content-cozy) !important;
-	}
+    &.cozy_c19a55 {
+        padding-right: var(
+            --custom-message-margin-left-content-cozy
+        ) !important;
+    }
 
-	>.contents_c19a55 {
-		margin-right: 9px;
+    > .contents_c19a55 {
+        margin-right: 9px;
 
-		img.avatar_c19a55 {
-			left: initial;
-			right: var(--custom-message-margin-horizontal);
-		}
-	}
+        img.avatar_c19a55 {
+            left: initial;
+            right: var(--custom-message-margin-horizontal);
+        }
+    }
 
-	.container_b7e1cb {
-		margin-right: 9px;
+    .container_b7e1cb {
+        margin-right: 9px;
+    }
 
-	}
+    .timestamp_c19a55 {
+        left: initial;
+        right: 0;
+    }
 
-	.timestamp_c19a55 {
-		left: initial;
-		right: 0;
-	}
+    /* Switch end buttons appears to avoid covering text */
+    .buttonContainer_c19a55 {
+        right: initial;
+        left: 0px;
 
-	/* Switch end buttons appears to avoid covering text */
-	.buttonContainer_c19a55 {
-		right: initial;
-		left: 0px;
+        > div {
+            right: initial;
+        }
+    }
 
-		>div {
-			right: initial;
-		}
-	}
-
-	 
-	/* New hacky way of fixing the reply "glyph" */
-	.repliedMessageClickableSpine_c19a55 {
-		
-		right: calc(-1*(.625 * var(--chat-avatar-size) + var(--gutter)));
-		left: 100%;
-		border-width: var(--spine-width) var(--spine-width) 0 0;
-		border-top-left-radius: 0px;
-		border-top-right-radius: 6px;
-	}
-	
+    /* New hacky way of fixing the reply "glyph" */
+    .repliedMessageClickableSpine_c19a55 {
+        right: calc(-1 * (0.625 * var(--chat-avatar-size) + var(--gutter)));
+        left: 100%;
+        border-width: var(--spine-width) var(--spine-width) 0 0;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 6px;
+    }
 }
 /* Triangle position for different densities */
-html.density-compact [data-is-self="true"] .message__5126c >.contents_c19a55::after {
-	right: 62px;
+html.density-compact
+    [data-is-self="true"]
+    .message__5126c
+    > .contents_c19a55::after {
+    right: 62px;
 }
-html.density-default [data-is-self="true"] .message__5126c >.contents_c19a55::after {
-	right: 71px;
+html.density-default
+    [data-is-self="true"]
+    .message__5126c
+    > .contents_c19a55::after {
+    right: 71px;
 }
-html.density-cozy [data-is-self="true"] .message__5126c >.contents_c19a55::after {
-	right: 78px;
+html.density-cozy
+    [data-is-self="true"]
+    .message__5126c
+    > .contents_c19a55::after {
+    right: 78px;
 }
 
 /* Move Profile Pic */
-[data-is-self="true"] .avatar_c19a55{
+[data-is-self="true"] .avatar_c19a55 {
     left: unset;
     right: 10px !important;
 }
 
 /* Move Self Decoration */
-[data-is-self="true"] .avatarDecoration_c19a55{
+[data-is-self="true"] .avatarDecoration_c19a55 {
     left: unset;
     right: 4px;
 }
 /* Move Decoration (depends on density) */
-.avatarDecoration_c19a55{
-	right: unset;
-	bottom: unset;
+.avatarDecoration_c19a55 {
+    right: unset;
+    bottom: unset;
 }
-.density-compact [data-is-self="false"] .avatarDecoration_c19a55{
-	left: 7px;
+.density-compact [data-is-self="false"] .avatarDecoration_c19a55 {
+    left: 7px;
 }
-.density-default [data-is-self="false"] .avatarDecoration_c19a55{
-	left: 11px;
+.density-default [data-is-self="false"] .avatarDecoration_c19a55 {
+    left: 11px;
 }
-.density-cozy [data-is-self="false"] .avatarDecoration_c19a55{
-	left: 16px;
+.density-cozy [data-is-self="false"] .avatarDecoration_c19a55 {
+    left: 16px;
 }
 
 /* Decoration size */
 .avatarDecoration_c19a55 {
-  height: 59px;
-  width: 59px;
+    height: 59px;
+    width: 59px;
 }
 
 /* Cancel inside .searchResultsWrap_a98f3b */
 .searchResultsWrap_a98f3b .avatarDecoration_c19a55 {
-  height: 50px;
-  width: 50px;
+    height: 50px;
+    width: 50px;
 }
 
 /* Workaround for avatar size*/
@@ -629,74 +634,68 @@ html.density-cozy [data-is-self="true"] .message__5126c >.contents_c19a55::after
 .searchResult__80bf8 .avatar_c19a55 {
     width: var(--chat-avatar-size);
     height: var(--chat-avatar-size);
-
 }
-
 
 /* NEW messages */
 .newMessagesBar__0f481.barBase__0f481 {
-background-color: var(--momotalkbanner) !important;
+    background-color: var(--momotalkbanner) !important;
 }
 
-.divider__5126c.hasContent__5126c.divider__908e2.isUnread__908e2.hasContent__908e2 .content__908e2{
-	margin-bottom: 18px !important;
-	background-color: transparent;
+.divider__5126c.hasContent__5126c.divider__908e2.isUnread__908e2.hasContent__908e2
+    .content__908e2 {
+    margin-bottom: 18px !important;
+    background-color: transparent;
 }
 
 .group-spacing-16.divider__5126c.beforeGroup__5126c,
 .divider__5126c.divider__908e2.isUnread__908e2 {
-   border-width: 20px;
-   border-radius: 7px;
-   border-color: var(--newmessages);
-
+    border-width: 20px;
+    border-radius: 7px;
+    border-color: var(--newmessages);
 }
 
 .group-spacing-16 .divider__5126c.beforeGroup__5126c::before,
-.divider__5126c.divider__908e2.isUnread__908e2::before{
-  content: "Read up to this point."; 
-  color: var(--newtextcolor);
-  position: relative;
-  top: -10px;
-  left: 0;
-  
+.divider__5126c.divider__908e2.isUnread__908e2::before {
+    content: "Read up to this point.";
+    color: var(--newtextcolor);
+    position: relative;
+    top: -10px;
+    left: 0;
 }
 
 .unreadPill__908e2.endCap__908e2 {
-	display: none;
+    display: none;
 }
 
 /* bye bye to the little hole by the server list*/
 .sidebar_5e434 {
-	border-radius: 0 !important;
+    border-radius: 0 !important;
 }
 .sidebar__5e434:after {
-	display: none;
+    display: none;
 }
 
-.sidebarList__5e434.sidebarListRounded__5e434{
-	border-radius: 0px;
-	background-color: var(--sidebar);
+.sidebarList__5e434.sidebarListRounded__5e434 {
+    border-radius: 0px;
+    background-color: var(--sidebar);
 }
 .privateChannels_e6b769 {
-	background-color: var(--sidebar);
+    background-color: var(--sidebar);
 }
 
 /* BIG TEXT */
 .markup__75297 h3 {
-	color: var(--messagefontcolor);
+    color: var(--messagefontcolor);
 }
-
 
 /* small text */
 .markup__75297 small:not(.inlineFormat__75297) {
-	color: var(--messagefontcolor);
+    color: var(--messagefontcolor);
 }
 
-
 /*more on messag */
-.hoverBarButton_f84418.button_f7ecac
-.icon_f84418 :not(.emoji.emoji__040f0) {
-	filter: var(--hovericoncolor)
+.hoverBarButton_f84418.button_f7ecac .icon_f84418 :not(.emoji.emoji__040f0) {
+    filter: var(--hovericoncolor);
 }
 
 /*sidebar little gap fix*/
@@ -707,104 +706,94 @@ background-color: var(--momotalkbanner) !important;
 /*fixing small gaps on top left of server banner*/
 .layers__960e4 {
     background-color: #505c72;
-}	
+}
 
 /*fixing code markup background blending with text bubble*/
-/*.markup__75297.messageContent_c19a55 
+/*.markup__75297.messageContent_c19a55
 .inline {
 	background-color: var(--senseimessagebubble) ;
-	
+
 } */
 
 /* Channel List, heritaged from previous version */
 .container__2637a {
-	background-color: var(--sidebar) ;
+    background-color: var(--sidebar);
 }
 .containerDefault_c69b6d.selected_c69b6d.link__2ea32 {
-	background-color: #68798D ;
+    background-color: #68798d;
 }
 
 /* member list, heritaged from previous version*/
-	.container_c8ffbb {
-	background-color: var(--sidebar);
+.container_c8ffbb {
+    background-color: var(--sidebar);
 }
-	.members_c8ffbb {
-	background-color: var(--sidebar);
+.members_c8ffbb {
+    background-color: var(--sidebar);
 
-		.membersGroup_c8ffbb {
-			font-weight: bold;
-		}
+    .membersGroup_c8ffbb {
+        font-weight: bold;
+    }
 
-		.member_c8ffbb {
-			background-color: var(--sidebar);
-		}
-		
-		.name__91a9d {
-		font-weight: bold;
-		}
-	}
+    .member_c8ffbb {
+        background-color: var(--sidebar);
+    }
+
+    .name__91a9d {
+        font-weight: bold;
+    }
+}
 html:not(.custom-theme-background) .searchBar_e6b769 {
-		background-color: var(--sidebar) !important;
+    background-color: var(--sidebar) !important;
 }
 
 /* DM list*/
-.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2{
-	background-color: var(--sidebar);
+.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2 {
+    background-color: var(--sidebar);
 }
- 
+
 .sidebarList__5e434,
 .sidebarListRounded__5e434 {
-	border-right: 2px solid var(--sidebarborder); 
+    border-right: 2px solid var(--sidebarborder);
 }
 
-
 .title_f75fb0.container__9293f.themed__9293f {
-	background-color: var(--channeltopbar);
-
+    background-color: var(--channeltopbar);
 }
 
 /*search bar*/
 .defaultColor__4bd52.searchFilter_bd8186 {
-	background-color: #3e4757;
+    background-color: #3e4757;
 }
 
-.layer__59d0d
-.container__55c99 {
-	background-color: var(--sidebar);
+.layer__59d0d .container__55c99 {
+    background-color: var(--sidebar);
 }
-
 
 /*quick switcher*/
-.container_ac6cb0
-.quickswitcher_ac6cb0 {
-	background-color: var(--sidebar);
+.container_ac6cb0 .quickswitcher_ac6cb0 {
+    background-color: var(--sidebar);
 }
 
 .scroller_ac6cb0.auto__99f8c {
-	background-color: var(--sidebar);
+    background-color: var(--sidebar);
 }
 
-
 /*search result*/
-.searchResultsWrap_a98f3b
-.searchHeader_ae7890 {
-	background-color: var(--sidebar);
+.searchResultsWrap_a98f3b .searchHeader_ae7890 {
+    background-color: var(--sidebar);
 }
 
 .scroller_a98f3b.thin_d125d2.scrollerBase_d125d2 {
-	background-color: var(--sidebar);
+    background-color: var(--sidebar);
 }
 
-
-.container__80bf8
-.searchResult__80bf8 {
-	background-color: #373f4e;
+.container__80bf8 .searchResult__80bf8 {
+    background-color: #373f4e;
 }
-
 
 /*Activity Tab above your profile*/
 .panel__5dec7.activityPanel__5e434 {
-	background-color: var(--momotalkbanner) !important;
+    background-color: var(--momotalkbanner) !important;
 }
 
 .theme-dark .children__9293f:after {
@@ -815,361 +804,347 @@ html:not(.custom-theme-background) .searchBar_e6b769 {
 }
 /*add and discover server button*/
 .circleIconButton__5bc7e {
-	background-color: var(--serverlist);
+    background-color: var(--serverlist);
 }
 
 #add_friend-tab.peopleColumn__133bf {
-	background-image: url('https://miyakukage.github.io/discord-momotalk/img/miyu.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 400px
+    background-image: url("https://miyakukage.github.io/discord-momotalk/img/miyu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
 }
 
 .panels__5e434 {
-border-color: transparent !important;
+    border-color: transparent !important;
 }
 
 /* mentions/reply Color*/
-[class*="mentioned_"]{
-	  background-color: var(--mention) !important;
+[class*="mentioned_"] {
+    background-color: var(--mention) !important;
 }
 [class*="mentioned_"]::before {
-	  background-color: var(--mentionbar) !important;
+    background-color: var(--mentionbar) !important;
 }
-
 
 /* Links colors */
-.messageContent_c19a55 .anchor_edefb8.anchorUnderlineOnHover_edefb8{
-	color: var(--text-link);
+.messageContent_c19a55 .anchor_edefb8.anchorUnderlineOnHover_edefb8 {
+    color: var(--text-link);
 }
-
 
 /* funky loading screen */
-.container_a2f514.fixClipping_efbae7::after{
-
-	position: absolute;
-	content: "";
-	display: inline-block;
-	width: 200px;
-	height: 2000px;
-	background-image: url('https://miyakukage.github.io/discord-momotalk/img/logobig.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
+.container_a2f514.fixClipping_efbae7::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 2000px;
+    background-image: url("https://miyakukage.github.io/discord-momotalk/img/logobig.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.container_a2f514{
-	background-color: var(--momotalkbanner) !important;
+.container_a2f514 {
+    background-color: var(--momotalkbanner) !important;
 }
 
-.spinner_a2f514.ready_a2f514{
-	display: none;
+.spinner_a2f514.ready_a2f514 {
+    display: none;
 }
 
 .text_a2f514 {
-	margin-top: 300px;
+    margin-top: 300px;
 }
-
 
 /*userbar funny triangles*/
 .peopleList__5ec2f .peopleListItem_cc6179,
 .content__99f8c .peopleListItem_cc6179 {
-	background-image: url('https://raw.githubusercontent.com/MiyakuKage/discord-momotalk/refs/heads/testing-features-and-assets/img/img-dev/profile-bg2-inverted.png') !important;
-	background-position: right !important;
-	background-repeat: no-repeat !important;
-	background-size: 50% !important;
-	border-radius: 5px;
+    background-image: url("https://raw.githubusercontent.com/MiyakuKage/discord-momotalk/refs/heads/testing-features-and-assets/img/img-dev/profile-bg2-inverted.png") !important;
+    background-position: right !important;
+    background-repeat: no-repeat !important;
+    background-size: 50% !important;
+    border-radius: 5px;
 }
 
-
-.actions_fc004c, .actions_e1ecd3 {
-	margin-right: 1% !important;
+.actions_fc004c,
+.actions_e1ecd3 {
+    margin-right: 1% !important;
 }
 
 /* Game invitation embed */
 .container_b7e1cb:has(.embed__98ba8) {
-	width: 300px;
+    width: 300px;
 }
 
 /* ---------------- LIGHT MODE ---------------- */
 .theme-light.images-light {
+    [class*="messageGroupWrapper_"] {
+        /* FIX FOR PINS */
+        background-color: var(--messagebubbleLIGHT) !important;
+    }
 
-	[class*="messageGroupWrapper_"]{ /* FIX FOR PINS */
-	background-color:  var(--messagebubbleLIGHT) !important;
-	}
+    /* Arona in friends */
 
-/* Arona in friends */
+    .scroller__7d20c {
+        background-image: var(--characterfriendsLIGHT);
+    }
 
-.scroller__7d20c {
-	background-image: var(--characterfriendsLIGHT);	
-}
+    .container_b7e1cb {
+        background-color: var(--embedcolorLIGHT) !important;
+        border: 2px solid var(--embedborderLIGHT);
+    }
 
-	.container_b7e1cb {
-		background-color: var(--embedcolorLIGHT) !important;
-				border: 2px solid var(--embedborderLIGHT);
-	}
+    /* Arona in main chat AND background*/
+    .chatContent_f75fb0 {
+        background-image:
+            var(--bgcharacterLIGHT), var(--bgimageLIGHT) !important;
+        background-size:
+            auto 80%,
+            cover !important;
+        background-repeat: no-repeat, no-repeat !important;
+        background-position:
+            var(--bgcharacterpositionLIGHT),
+            center center !important;
+        background-attachment: fixed, fixed !important;
+        background-color: var(--backgroundcolorLIGHT) !important;
+    }
+    .chatGradient__36d07 {
+        background: var(--backgroundcolorLIGHT) !important;
+    }
+    .voiceCallWrapper_a21736 {
+        background-image: var(--callimageLIGHT) !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-attachment: fixed !important;
+    }
+    .chat_f75fb0 {
+        background-color: var(--channeltopbarLIGHT) !important;
+    }
 
-/* Arona in main chat AND background*/
-.chatContent_f75fb0 {
-	background-image: var(--bgcharacterLIGHT), var(--bgimageLIGHT) !important;
-	background-size: auto 80%, cover !important;
-	background-repeat: no-repeat, no-repeat !important;
-	background-position: var(--bgcharacterpositionLIGHT), center center !important;
-	background-attachment: fixed, fixed !important;
-	background-color: var(--backgroundcolorLIGHT) !important;
-}
-.chatGradient__36d07 {
-	background: var(--backgroundcolorLIGHT) !important;
-}
-.voiceCallWrapper_a21736 {
-	background-image: var(--callimageLIGHT) !important;
-	background-size: contain !important;
-	background-repeat: no-repeat !important;
-	background-attachment: fixed !important;
-}
-.chat_f75fb0{
-	background-color: var(--channeltopbarLIGHT) !important;
-}
+    /* Colors */
+    .themedBackground__74017 {
+        /* Typing area */
+        background-color: var(--senseimessagebubbleLIGHT);
+    }
+    .channelBottomBarArea_f75fb0 svg {
+        color: var(--messagefontcolorLIGHT);
+    }
+    .placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding__74017 {
+        color: white;
+    }
+    .panels__5e434 {
+        /* User Thing */
+        background-color: var(--momotalkbannerLIGHT) !important;
+    }
 
-/* Colors */
-.themedBackground__74017{ /* Typing area */
-	background-color: var(--senseimessagebubbleLIGHT);
-}
-.channelBottomBarArea_f75fb0 svg{
-	color: var(--messagefontcolorLIGHT);
-}
-.placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding__74017{
-	color: white;
+    .wrapper_ef3116.guilds__5e434 {
+        /* server list */
+        background-color: var(--serverlistLIGHT);
+    }
 
-}
-.panels__5e434 { /* User Thing */
-	background-color: var(--momotalkbannerLIGHT) !important;
-}
+    /* Top bar */
+    .bar_c38106 {
+        background-color: var(--momotalkbannerLIGHT);
 
-.wrapper_ef3116.guilds__5e434 { /* server list */
-	background-color: var(--serverlistLIGHT);
-}
+        /* the little discord icon as well as inbox and help */
+        path {
+            fill: var(--messagefontcolorLIGHT);
+        }
 
+        /* direct message text */
+        .lineClamp1__4bd52 {
+            color: var(--messagefontcolorLIGHT);
+        }
 
-/* Top bar */
-.bar_c38106{
-	background-color: var(--momotalkbannerLIGHT);
+        /* the aria labels explain themselves */
+        [aria-label="Minimize"] rect {
+            fill: var(--messagefontcolorLIGHT);
+        }
 
-	/* the little discord icon as well as inbox and help */
-	path{
-		fill: var(--messagefontcolorLIGHT);
-	}
+        [aria-label="Maximize"] rect {
+            stroke: var(--messagefontcolorLIGHT);
+        }
 
-	/* direct message text */
-	.lineClamp1__4bd52{
-		color: var(--messagefontcolorLIGHT);
-	}
+        [aria-label="Close"] polygon {
+            fill: var(--messagefontcolorLIGHT);
+        }
+    }
 
-	/* the aria labels explain themselves */
-	[aria-label="Minimize"] rect{
-		fill: var(--messagefontcolorLIGHT);
-	}
+    /* Message font */
+    .markup__75297 {
+        color: var(--messagefontcolorLIGHT);
+    }
 
-	[aria-label="Maximize"] rect{
-		stroke: var(--messagefontcolorLIGHT);
-	}
+    /* Usernames */
+    .username_c19a55 {
+        color: var(--usernameLIGHT);
+        text-shadow:
+            -1px -1px 0 var(--usernameoutlineLIGHT),
+            1px -1px 0 var(--usernameoutlineLIGHT),
+            -1px 1px 0 var(--usernameoutlineLIGHT),
+            1px 1px 0 var(--usernameoutlineLIGHT);
+    }
 
-	[aria-label="Close"] polygon{
-		fill: var(--messagefontcolorLIGHT);
-	}
-}
+    /* NEW messages */
+    .newMessagesBar__0f481.barBase__0f481 {
+        background-color: var(--momotalkbannerLIGHT) !important;
+    }
 
-/* Message font */
-.markup__75297 {
-	color: var(--messagefontcolorLIGHT);
-}
+    .group-spacing-16.divider__5126c.beforeGroup__5126c,
+    .divider__5126c.divider__908e2.isUnread__908e2 {
+        border-color: var(--newmessagesLIGHT);
+    }
 
-/* Usernames */
-.username_c19a55 {
-	color: var(--usernameLIGHT);
-	text-shadow: -1px -1px 0 var(--usernameoutlineLIGHT), 1px -1px 0 var(--usernameoutlineLIGHT), -1px 1px 0 var(--usernameoutlineLIGHT), 1px 1px 0 var(--usernameoutlineLIGHT);
-}
+    /* a very thin strip of color at the bottom */
+    .sidebar_5e434:after {
+        background-color: var(--momotalkbannerLIGHT);
+    }
+    .sidebarList__5e434.sidebarListRounded__5e434 {
+        background-color: var(--sidebarLIGHT);
+    }
+    .privateChannels_e6b769 {
+        background-color: var(--sidebarLIGHT);
+    }
 
+    .scrollbarGhostHairline__506b3.scrollbar__506b3.hljs {
+        /* Code Block */
+        background-color: #8cc8de !important;
+        color: white !important;
+    }
 
-/* NEW messages */
-.newMessagesBar__0f481.barBase__0f481 {
-background-color: var(--momotalkbannerLIGHT) !important;
-}
+    .textContainer__4d95d.hljs {
+        color: white !important;
+    }
 
-.group-spacing-16.divider__5126c.beforeGroup__5126c,
-.divider__5126c.divider__908e2.isUnread__908e2 {
-   border-color: var(--newmessagesLIGHT);
+    /* BIG TEXT */
+    .markup__75297 h3 {
+        color: var(--messagefontcolorLIGHT);
+    }
 
-}
+    .markup__75297 h2 {
+        color: var(--messagefontcolorLIGHT);
+    }
+    .markup__75297 h1 {
+        color: var(--messagefontcolorLIGHT);
+    }
 
-/* a very thin strip of color at the bottom */
-.sidebar_5e434:after {
-	background-color: var(--momotalkbannerLIGHT);
+    /* small text */
+    .markup__75297 small:not(.inlineFormat__75297) {
+        color: var(--messagefontcolorLIGHT);
+    }
 
-}
-.sidebarList__5e434.sidebarListRounded__5e434{
-	background-color: var(--sidebarLIGHT);
-}
-.privateChannels_e6b769 {
-	background-color: var(--sidebarLIGHT);
-}
+    /* file popup icons */
+    .wrapper_f7ecac {
+        path {
+            fill: var(--newtextcolorLIGHT);
+        }
+    }
 
-.scrollbarGhostHairline__506b3.scrollbar__506b3.hljs { /* Code Block */
-	background-color: #8cc8de !important;
-	color: white !important;
-}
+    /*more on messag */
+    .hoverBarButton_f84418.button_f7ecac
+        .icon_f84418
+        :not(.emoji.emoji__040f0) {
+        filter: var(--hovericoncolorLIGHT);
+    }
 
-.textContainer__4d95d.hljs {
-	color: white !important;
-}
+    /*sidebar little gap fix*/
+    .sidebarList__5e434 {
+        background-color: var(--sidebarLIGHT);
+    }
 
-/* BIG TEXT */
-.markup__75297 h3 {
-	color: var(--messagefontcolorLIGHT);
-}
+    .container__2637a {
+        background-color: var(--sidebarLIGHT);
+    }
 
-.markup__75297 h2 {
-	color: var(--messagefontcolorLIGHT);
-}
-.markup__75297 h1 {
-	color: var(--messagefontcolorLIGHT);
-}
+    .container_c8ffbb {
+        background-color: var(--sidebarLIGHT);
+    }
+    .members_c8ffbb {
+        background-color: var(--sidebarLIGHT);
 
-/* small text */
-.markup__75297 small:not(.inlineFormat__75297) {
-	color: var(--messagefontcolorLIGHT);
-}
+        .member_c8ffbb {
+            background-color: var(--sidebarLIGHT);
+        }
+    }
+    html:not(.custom-theme-background) .searchBar_e6b769 {
+        background-color: var(--sidebarLIGHT) !important;
+    }
 
+    /* DM list*/
+    .scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2 {
+        background-color: var(--sidebarLIGHT);
+        border: 5px;
+    }
 
+    .sidebarList__5e434,
+    .sidebarListRounded__5e434 {
+        border-right: 2px solid var(--sidebarborderLIGHT);
+    }
 
-/* file popup icons */
-.wrapper_f7ecac {
-	path {
-		fill: var(--newtextcolorLIGHT);
-	}
-}
+    .title_f75fb0.container__9293f.themed__9293f {
+        background-color: var(--channeltopbarLIGHT);
+    }
 
-/*more on messag */
-.hoverBarButton_f84418.button_f7ecac
-.icon_f84418 :not(.emoji.emoji__040f0) {
-	filter: var(--hovericoncolorLIGHT)
-}
+    .layer__59d0d .container__55c99 {
+        background-color: var(--sidebarLIGHT);
+    }
 
-/*sidebar little gap fix*/
-.sidebarList__5e434 {
-    background-color: var(--sidebarLIGHT);
-}
+    /*quick switcher*/
+    .container_ac6cb0 .quickswitcher_ac6cb0 {
+        background-color: var(--sidebarLIGHT);
+    }
 
-.container__2637a {
-	background-color: var(--sidebarLIGHT) ;
-}
+    .scroller_ac6cb0.auto__99f8c {
+        background-color: var(--sidebarLIGHT);
+    }
 
-	.container_c8ffbb {
-	background-color: var(--sidebarLIGHT);
-}
-	.members_c8ffbb {
-	background-color: var(--sidebarLIGHT);
+    /*search result*/
+    .searchResultsWrap_a98f3b .searchHeader_ae7890 {
+        background-color: var(--sidebarLIGHT);
+    }
 
-		.member_c8ffbb {
-			background-color: var(--sidebarLIGHT);
-		}
-	}
-html:not(.custom-theme-background) .searchBar_e6b769 {
-		background-color: var(--sidebarLIGHT) !important;
-}
+    .scroller_a98f3b.thin_d125d2.scrollerBase_d125d2 {
+        background-color: var(--sidebarLIGHT);
+    }
 
-/* DM list*/
-.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2 {
-	background-color: var(--sidebarLIGHT);
-	border: 5px;
-}
+    .message__5126c .repliedTextPreview_c19a55 .repliedTextContent_c19a55 {
+        color: gray;
+    }
 
+    /*Activity Tab above your profile*/
+    .panel__5dec7.activityPanel__5e434 {
+        background-color: var(--momotalkbannerLIGHT) !important;
+    }
 
-.sidebarList__5e434,
-.sidebarListRounded__5e434 {
-	border-right: 2px solid var(--sidebarborderLIGHT); 
-}
+    /*add and discover server button*/
+    .circleIconButton__5bc7e {
+        background-color: var(--serverlistLIGHT);
+    }
 
-.title_f75fb0.container__9293f.themed__9293f {
-	background-color: var(--channeltopbarLIGHT);
-}
+    #add_friend-tab.peopleColumn__133bf {
+        background-image: url("https://miyakukage.github.io/discord-momotalk/img/miyu.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 400px;
+    }
 
+    /*code file preview*/
+    .mosaicItem__6c706 .textContainer__4d95d .scrollbarGhostHairline__506b3 {
+        background-color: #8aabd2 !important;
+    }
 
-.layer__59d0d
-.container__55c99 {
-	background-color: var(--sidebarLIGHT);
-}
+    /*little buttons on server selection*/
+    .item__58105 {
+        background-color: #ffffff;
+    }
 
+    /* Links colors */
+    .messageContent_c19a55 .anchor_edefb8.anchorUnderlineOnHover_edefb8 {
+        color: var(--text-linkLIGHT);
+    }
 
-/*quick switcher*/
-.container_ac6cb0
-.quickswitcher_ac6cb0 {
-	background-color: var(--sidebarLIGHT);
-}
-
-.scroller_ac6cb0.auto__99f8c {
-	background-color: var(--sidebarLIGHT);
-}
-
-/*search result*/
-.searchResultsWrap_a98f3b
-.searchHeader_ae7890 {
-	background-color: var(--sidebarLIGHT);
-}
-
-.scroller_a98f3b.thin_d125d2.scrollerBase_d125d2 {
-	background-color: var(--sidebarLIGHT);
-}
-
-.message__5126c
-.repliedTextPreview_c19a55
-.repliedTextContent_c19a55 {
-    color: gray;
-}
-
-
-/*Activity Tab above your profile*/
-.panel__5dec7.activityPanel__5e434 {
-	background-color: var(--momotalkbannerLIGHT) !important;
-}
-
-/*add and discover server button*/
-.circleIconButton__5bc7e {
-	background-color: var(--serverlistLIGHT);
-}
-
-#add_friend-tab.peopleColumn__133bf {
-	background-image: url('https://miyakukage.github.io/discord-momotalk/img/miyu.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 400px
-}
-
-	
-/*code file preview*/
-.mosaicItem__6c706
-.textContainer__4d95d
-.scrollbarGhostHairline__506b3 {
-	background-color: #8aabd2 !important;
-}
-
-/*little buttons on server selection*/
-.item__58105 {
-	background-color: #FFFFFF;
-}
-
-/* Links colors */
-.messageContent_c19a55 .anchor_edefb8.anchorUnderlineOnHover_edefb8{
-	color: var(--text-linkLIGHT);
-}
-
-/* funky loading screen */
-.container_a2f514{
-	background-color: var(--momotalkbannerLIGHT) !important;
-}
-
-
-
-
-
+    /* funky loading screen */
+    .container_a2f514 {
+        background-color: var(--momotalkbannerLIGHT) !important;
+    }
 } /* LIGHTMODE END */
