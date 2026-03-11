@@ -6,9 +6,7 @@
   * @source https://github.com/MiyakuKage/discord-momotalk
 */
 
-
-
-@import url('https://miyakukage.github.io/discord-momotalk/MomotalkSource.theme.css');
+@import url("https://miyakukage.github.io/discord-momotalk/MomotalkSource.theme.css");
 
 /* Uncomment this if you want to disable the custom cursor */
 /*
@@ -19,86 +17,83 @@
 
 /* Change Colors Here!!!! */
 :root {
-	--backgroundcolor: #1A1A1E;
-	
-	--momotalkbanner: #E56072;
+    --backgroundcolor: #1a1a1e;
 
-	--senseimessagebubble: #4A8AC8;
+    --momotalkbanner: #e56072;
 
-	--messagebubble: #4C5B6F;
+    --senseimessagebubble: #4a8ac8;
 
-	--text-link: #A3BAFF;
+    --messagebubble: #4c5b6f;
 
-	--sidebar: #505C72;	
-	--sidebarborder : #3E4E6B;
-	
-	--channeltopbar: #505C72;
-	
-	--messagefontcolor: #FFFFFF;
+    --text-link: #a3baff;
 
-	--username: #c4c4c4;
-	--usernameoutline: #323339;
+    --sidebar: #505c72;
+    --sidebarborder: #3e4e6b;
 
-	--serverlist: #505C72;
-	
-	--newmessages: #DDE6ED;/* this is the read up to this point thingy*/
+    --channeltopbar: #505c72;
 
-	--newtextcolor: #3F444A;
-	
-	--mention : rgba(255, 147, 183, 0.5); 
-	--mentionbar : rgba(255, 147, 183, 0.8); 
-	
-	--hovericoncolor: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(106%) contrast(105%);
+    --messagefontcolor: #ffffff;
 
-	/* Change Images Here !!!! */
-	--bgcharacter: url('https://miyakukage.github.io/discord-momotalk/img/chara/mika.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
-	--bgcharacterposition: bottom 10% left 30%;
-	--characterfriends: url('https://i.imgur.com/ty3XjgC.gif'); 
+    --username: #c4c4c4;
+    --usernameoutline: #323339;
 
-	--bgimage: url('your image url here.png');
+    --serverlist: #505c72;
 
-	--callimage: url('your image url here.png');
+    --newmessages: #dde6ed; /* this is the read up to this point thingy*/
 
+    --newtextcolor: #3f444a;
 
+    --mention: rgba(255, 147, 183, 0.5);
+    --mentionbar: rgba(255, 147, 183, 0.8);
 
-	/*FOR LIGHTMODE*/
-	--backgroundcolorLIGHT: #FFFFFF;
+    --hovericoncolor: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg)
+        brightness(106%) contrast(105%);
 
-	--momotalkbannerLIGHT: #FB90A4;
+    /* Change Images Here !!!! */
+    --bgcharacter: url("https://miyakukage.github.io/discord-momotalk/img/chara/mika.apng"); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
+    --bgcharacterposition: bottom 10% left 30%;
+    --characterfriends: url("https://i.imgur.com/ty3XjgC.gif");
 
-	--senseimessagebubbleLIGHT: #4A8AC8;
+    --bgimage: url("your image url here.png");
 
-	--messagebubbleLIGHT: #4C5B6F;
+    --callimage: url("your image url here.png");
 
-	--text-linkLIGHT: #A3BAFF;
+    /*FOR LIGHTMODE*/
+    --backgroundcolorLIGHT: #ffffff;
 
-	--sidebarLIGHT: #F2F7F8;
-	
-	--sidebarborderLIGHT : #DFE2E1;
-	
-	--channeltopbarLIGHT: #E7F0F7;
+    --momotalkbannerLIGHT: #fb90a4;
 
-	--messagefontcolorLIGHT: #FFFFFF;
+    --senseimessagebubbleLIGHT: #4a8ac8;
 
-	--usernameLIGHT: #373737;
-	--usernameoutlineLIGHT: #FFFFFF;
+    --messagebubbleLIGHT: #4c5b6f;
 
-	--serverlistLIGHT: #505C72;
-	
-	--newmessagesLIGHT: #DDE6ED;/* this is the read up to this point thingy*/
+    --text-linkLIGHT: #a3baff;
 
-	--newtextcolorLIGHT: #3F444A;
+    --sidebarLIGHT: #f2f7f8;
 
-	--hovericoncolorLIGHT:   ;
-	
+    --sidebarborderLIGHT: #dfe2e1;
 
-	/* Change Images Here !!!! */
-	--bgcharacterLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
-	--bgcharacterposition: bottom 10% left 30%;
-	--characterfriendsLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); 
-	
-	--bgimageLIGHT: url('your image url here.png');
+    --channeltopbarLIGHT: #e7f0f7;
 
-	--callimageLIGHT: url('your image url here.png');
+    --messagefontcolorLIGHT: #ffffff;
+
+    --usernameLIGHT: #373737;
+    --usernameoutlineLIGHT: #ffffff;
+
+    --serverlistLIGHT: #505c72;
+
+    --newmessagesLIGHT: #dde6ed; /* this is the read up to this point thingy*/
+
+    --newtextcolorLIGHT: #3f444a;
+
+    --hovericoncolorLIGHT:   ;
+
+    /* Change Images Here !!!! */
+    --bgcharacterLIGHT: url("https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng"); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
+    --bgcharacterposition: bottom 10% left 30%;
+    --characterfriendsLIGHT: url("https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng");
+
+    --bgimageLIGHT: url("your image url here.png");
+
+    --callimageLIGHT: url("your image url here.png");
 }
-
