@@ -260,9 +260,9 @@
     background-color: transparent;
 }
 
-.theme-dark .button_f7ecac {
+/*.theme-dark .button_f7ecac {
     color: black;
-}
+}*/
 
 /*replace with colour if you want a colour behind your image */
 #app-mount .tutorialContainer__1f388 .childWrapper__6e9f8 {
@@ -424,15 +424,18 @@
         align-items: inherit;
         flex-direction: column;
         z-index: 1;
-        width: 100%;
-        max-width: 600px;
+        max-width: 80%;
 
         .markup__75297 {
             padding: 5px 15px;
-            max-width: 100%;
             border-radius: var(--momo-messages-border-radius);
             background-color: var(--messagebubble);
             overflow: visible;
+            max-width: 66ch;
+
+            &:has(pre, code:not(.inline)) {
+                max-width: max-content;
+            }
         }
     }
 
@@ -469,7 +472,7 @@
             background-color: transparent;
 
             .reaction__23977.reactionMe__23977 .reactionCount__23977 {
-                color: var(--brand-560);
+                /*color: var(--brand-560);*/
             }
         }
 
@@ -571,6 +574,45 @@
         border-top-right-radius: 6px;
     }
 }
+
+/* Upload progress messages - align right like self messages */
+[data-list-item-id*="Uploader"] {
+    align-items: end;
+
+    > .contents_c19a55 {
+        margin-right: 9px;
+
+        img.avatar_c19a55 {
+            left: initial;
+            right: var(--custom-message-margin-horizontal);
+        }
+    }
+
+    .container_b7e1cb {
+        margin-right: 9px;
+    }
+
+    .timestamp_c19a55 {
+        left: initial;
+        right: 0;
+    }
+
+    .buttonContainer_c19a55 {
+        right: initial;
+        left: 0px;
+
+        > div {
+            right: initial;
+        }
+    }
+
+    &.cozy_c19a55 {
+        padding-right: var(
+            --custom-message-margin-left-content-cozy
+        ) !important;
+    }
+}
+
 /* Triangle position for different densities */
 html.density-compact
     [data-is-self="true"]
